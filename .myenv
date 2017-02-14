@@ -1,0 +1,43 @@
+#################################################################
+#								#
+#	This file can be used to allow you to customise your	#
+#	shell environment. 					#
+#								#
+#	ARCCA strongly advise against using 'module' commands	#
+#	within this file as it can lead to issues as well as	#
+#	general confusion when using multiple versions		#
+#	of a specific piece of software (or when revisting	# 
+#	a piece of software after several months).		#
+#								#
+#	If the modifications are for a specific piece of	# 
+#	software we recommend creating a shell script to	# 
+#	customise your environment that is specific to that 	#
+#	programs requirement.					#
+#				 				#
+#	i.e.							#
+#								#
+#		matlab_2008_environment.sh			#
+#								#
+#	Place your customisation for a specific program		#
+#	within this file and execute it before using the 	#
+#	program interactively. 					#
+#								#
+#	i.e.							#
+#								#
+#		sh matlab_2008_environment.sh			#
+#								#
+#	If you are setting up an environment for job execution 	#
+#	please use the module commands within you qsub   	#
+#	submission script.					#
+#								#
+#	Customisations within this file should be general	#
+#	and not specific to an application (i.e. changing 	#
+#	your colour scheme).					#
+#								#
+#	If you require any advice with setting up your 		#
+#	environment please do not hesitate to contact the 	#
+#	ARCCA team (arcca@cardiff.ac.uk).			#
+#								#
+#################################################################
+export SVN_EDITOR=vi
+
